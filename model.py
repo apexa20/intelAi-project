@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Load model
-model = tf.keras.models.load_model(r"C:\Users\91743\Desktop\final project\keras.h5")
+model = tf.keras.models.load_model("keras.h5")
 
 # Class labels
 class_names = ['Pass', 'Fail']  # Match your real project classes
